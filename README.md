@@ -1,8 +1,8 @@
 # Computer-Vision-Workshop-2018
 Thanks for the interest in the 2018 ISU Robotics Club Computer Vision Workshop!  The workshop will be hosted the evening of October 2nd at 6:30 PM, room TBA.  Prior to coming, please follow the following installation guide so we can jump right in during the workshop!
 
-# Installation
-First off, I'm making the assumption you're using a Windows 10 PC.  If you have a Mac, you'll need to download the macOS version of Anaconda.
+# Installation on Windows
+For Mac and Ubuntu, see further down.
 
   1.  Download and install Anaconda: https://www.anaconda.com/download/
   You'll want to download the Python 3.6, 64 bit version.  If it gives you the option to "Add Anaconda to my PATH environment variable", check the box despite it saying not recommended.
@@ -32,6 +32,50 @@ First off, I'm making the assumption you're using a Windows 10 PC.  If you have 
   import cv2
   ```
   Nothing should happen... If you get an error, send a message via Slack and we'll get it figured out!
+  
+  7.  Exit the Python shell by typing exit().  Be sure you're still in your virtual environment.  Now we're going to install tensorflow.  For the purposes of this workshop, we'll be doing it without GPU support to simplify installation.  Simply type:
+  ```
+  pip install tensorflow
+  ```
+  8.  Next we're installing Keras, a high level deep learning framework.  Type:
+  ```
+  pip install keras
+  ```
+  At this point, we should have OpenCV, Tensorflow, and Keras installed in our Python 3.5 Anaconda Environment.  Please confirm this by entering your Python shell by typing "python", then typing the following:
+  ```
+  import cv2
+  import tensorflow as tf
+  import keras
+  ```
+  You should see "Using Tensorflow Backend".
+  
+  
+ # Installation on Mac
+ Follow this guide to install OpenCV on your Mac: https://medium.com/init27-labs/installation-of-opencv-using-anaconda-mac-faded05a4ef6.  Use step 4b rather than 4a and rather than python=2.7, type python=3.5.  After OpenCV is installed, follow these steps:
+  1.  Install tensorflow.  Start by activating your new Anaconda environment by typing:
+  ```
+  source activate CVWorkshop
+  ```
+  Be sure to switch "CVWorkshop" with whatever you named your environment.  Then type:
+  ```
+  pip install tensorflow
+  ```
+  
+  2.  Install Keras, which is our high-level deep learning framework. Type:
+  ```
+  pip install keras
+  ```
+ At this point, we should have OpenCV, Tensorflow, and Keras installed in our Python 3.5 Anaconda Environment.  Please confirm this by entering your Python shell by typing "python", then typing the following:
+  ```
+  import cv2
+  import tensorflow as tf
+  import keras
+  ```
+  You should see "Using Tensorflow Backend".
+  
+ # Installation on Ubuntu
+  1.  Start off by following this tutorial to install Anaconda: https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04
+  2.  Follow the steps in the Windows installation guide.
   
  # Preparing for the Workshop
  Absolutely no programming experience is required to attend this workshop, but a bit of preparation is requested!  Aside from installing OpenCV, please take the time to ensure you have a working webcam.  It can be built in to your laptop or a USB one, doesn't make a difference!  I'd also like you to print out this checkerboard and bring it with you: https://docs.opencv.org/2.4/_downloads/pattern.png
