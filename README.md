@@ -51,7 +51,7 @@ For Mac and Ubuntu, see further down.
   
   
  # Installation on Mac
- Follow this guide to install OpenCV on your Mac: https://medium.com/init27-labs/installation-of-opencv-using-anaconda-mac-faded05a4ef6.  Use step 4b rather than 4a and rather than python=2.7, type python=3.5.  After OpenCV is installed, follow these steps:
+ Follow this guide to install OpenCV on your Mac: https://medium.com/init27-labs/installation-of-opencv-using-anaconda-mac-faded05a4ef6.  Use step 4b rather than 4a and rather than python=2.7, type python=3.5. **NOTE:** During step 4b use 'conda install -c conda-forge matplotlib' instead of 'conda install -c conda- forge matplotlib'. After OpenCV is installed, follow these steps:
   1.  Install tensorflow.  Start by activating your new Anaconda environment by typing:
   ```
   source activate CVWorkshop
