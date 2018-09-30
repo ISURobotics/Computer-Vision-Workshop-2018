@@ -77,5 +77,3 @@ For Mac and Ubuntu, see further down.
   1.  Start off by following this tutorial to install Anaconda: https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04
   2.  Follow the steps in the Windows installation guide.
   
- # Preparing for the Workshop
- Absolutely no programming experience is required to attend this workshop, but a bit of preparation is requested!  Aside from installing OpenCV, please take the time to ensure you have a working webcam.  It can be built in to your laptop or a USB one, doesn't make a difference!  I'd also like you to print out this checkerboard and bring it with you: https://docs.opencv.org/2.4/_downloads/pattern.png
