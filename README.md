@@ -1,5 +1,5 @@
 # Computer-Vision-Workshop-2018
-Thanks for the interest in the 2018 ISU Robotics Club Computer Vision Workshop!  The workshop will be hosted the evening of October 2nd at 6:30 PM, room TBA.  Prior to coming, please follow the following installation guide so we can jump right in during the workshop!
+Thanks for the interest in the 2018 ISU Robotics Club Computer Vision Workshop!  The workshop will be hosted the evening of October 2nd at 6:30 PM in Carver 205.  Prior to coming, please follow the following installation guide so we can jump right in during the workshop!
 
 # Installation on Windows
 For Mac and Ubuntu, see further down.
