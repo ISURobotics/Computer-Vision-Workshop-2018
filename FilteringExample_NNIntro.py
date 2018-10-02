@@ -24,10 +24,12 @@ verticalEdgeFilter = np.array([[-1, 0, 1], [-1, 0, 1]], dtype = np.float32)
 filteredCornerImage = cv2.filter2D(img.copy(), -1, cornerFilter)
 horizEdge = cv2.filter2D(img.copy(), -1, horizontalEdgeFilter)
 vertEdge = cv2.filter2D(img.copy(), -1, verticalEdgeFilter)
+canny = cv2.Canny(img.copy(), 50, 200)
 
 #Here's the results!
 cv2.imshow("corner", img)
 cv2.imshow("Filter response", filteredCornerImage)
 cv2.imshow("Vertical Edge", vertEdge)
 cv2.imshow("Horizontal Edge", horizEdge)
+cv2.imshow("Canny", canny)
 cv2.waitKey(0)
