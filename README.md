@@ -77,3 +77,7 @@ For Mac and Ubuntu, see further down.
   1.  Start off by following this tutorial to install Anaconda: https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04
   2.  Follow the steps in the Windows installation guide.
   
+  # During the workshop
+  During the workshop, we'll be using this dataset: https://drive.google.com/file/d/11kP4cNAMiBTcZhAR5y_iPo4SGy8Bm6Su/view?usp=sharing
+  Don't worry about downloading it until we get started.
+  
