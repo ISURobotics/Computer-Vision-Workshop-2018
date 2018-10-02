@@ -41,4 +41,6 @@ while True:
 
     # And we'll show the image for good measure
     cv2.imshow("Image Cropped", cropped)
-    cv2.waitKey(1)
+    key = cv2.waitKey(1)
+    if key == ord('q'):
+        break
